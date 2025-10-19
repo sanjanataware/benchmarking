@@ -1,0 +1,29 @@
+# Minimal requirements for rnabert_ssp_eval.py only
+# This file contains only the dependencies needed to run rnabert_ssp_eval.py
+# for benchmarking RNABERT on Secondary Structure Prediction
+
+# Core deep learning frameworks
+torch==1.13.1
+transformers==4.38.1
+accelerate==0.27.2
+
+# Scientific computing and metrics
+numpy==1.24.4
+scipy==1.10.1
+scikit-learn==1.3.0
+
+# Data handling
+pandas==2.0.3
+
+# Progress tracking
+tqdm==4.66.1
+
+# Model loading utilities
+safetensors==0.4.2
+huggingface-hub==0.21.1
+
+# Required for tokenization and configuration
+PyYAML==6.0.1
+regex==2023.8.8
+filelock==3.12.4
+packaging==24.0
